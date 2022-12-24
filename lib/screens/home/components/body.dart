@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movie_app_ui/constants.dart';
 import 'package:movie_app_ui/screens/home/components/categories.dart';
+import 'package:movie_app_ui/screens/home/components/genres.dart';
 
 class Body extends StatelessWidget {
   const Body({super.key});
@@ -10,6 +11,7 @@ class Body extends StatelessWidget {
     return Column(
       children: <Widget>[
         CategoryList(),
+        Genres(),
       ],
     );
   }
