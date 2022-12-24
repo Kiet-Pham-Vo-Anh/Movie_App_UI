@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movie_app_ui/constants.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:movie_app_ui/screens/home/components/body.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,6 +10,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
+      body: Body(),
     );
   }
 
